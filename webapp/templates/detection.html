@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Doughnut Detection</title>
+{% endblock %}
+
+{% block body %}
+
+<span><h1>Doughnut Detection</h1></span>
+
+<div class="bgout output">
+	<div class="block" >
+		<img src={{image}} width="400" height="400" ></img>
+	</div>
+	<div class="block">
+		<img src={{output}} width="400" height="400" ></img>
+		<span><h1>Prediction:{{counts}}</h1></span>
+	</div>
+	
+	
+</div>
+
+{% endblock %}

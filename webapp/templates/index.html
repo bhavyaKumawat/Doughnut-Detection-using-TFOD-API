@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Doughnut Detection</title>
+{% endblock %}
+
+{% block body %}
+
+
+<div class="div bgimg">
+    <span><h1>Doughnut Detection</h1></span>
+    <form action = "/detect" method = "POST" enctype = "multipart/form-data">
+         <input type = "file" name = "image" />
+         <input type = "submit" value = "Predict"/>
+    </form>
+</div>
+
+{% endblock %}
