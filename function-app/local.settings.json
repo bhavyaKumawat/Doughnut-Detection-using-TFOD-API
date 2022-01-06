@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "doughnutstorageaccountv9_STORAGE": "DefaultEndpointsProtocol=https;AccountName=doughnutstorageaccountv9;AccountKey=REZo2PZxqlgiTvyPG1qGAi9mfwgpxSL1JigzGmej8qT30WOMvhO9/SN6NGwESDqUmcAe7mw+cvILSgISYkjxpw==;EndpointSuffix=core.windows.net"
+  }
+}

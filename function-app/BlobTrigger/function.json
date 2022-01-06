@@ -1,0 +1,27 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "blobin",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "doughnut-detector/{blobname}.{blobextension}",
+      "connection": "doughnutstorageaccountv9_STORAGE"
+    },
+    {
+      "name": "blobout",
+      "type": "blob",
+      "direction": "out",
+      "path": "doughnut-detector-output/{blobname}.{blobextension}",
+      "connection": "doughnutstorageaccountv9_STORAGE"
+    },
+    {
+      "name": "bloboutjson",
+      "type": "blob",
+      "direction": "out",
+      "path": "doughnut-detector-output/{blobname}.json",
+      "connection": "doughnutstorageaccountv9_STORAGE"
+    }
+  ],
+  "disabled": false
+}
